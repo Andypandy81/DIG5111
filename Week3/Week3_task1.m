@@ -11,4 +11,4 @@ audiowrite('Ctriad.wav', Ctriad,11025); %is audio clipping why?
 % abc ablolute value ? i think
 abs(Ctriad)
 
-%2
+audioinfo('Ctriad.wav')
